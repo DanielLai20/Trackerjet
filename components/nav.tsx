@@ -1,5 +1,8 @@
+'use client';
+
 import Image from 'next/image';
 import Logo from '../public/logos/trackerjet-logo.png';
+import { motion } from 'framer-motion';
 
 const Nav = () => {
     return (
