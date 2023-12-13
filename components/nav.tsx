@@ -11,11 +11,11 @@ const Nav = () => {
                 <Image
                     src={Logo}
                     alt=""
-                    height={75}
-                    width={75}
+                    height={50}
+                    width={50}
                     style={{ margin: "-20px"}}
                 ></Image>
-                <h1 className="text-2xl font-bold text-slate-200">
+                <h1 className="text-xl font-bold text-slate-200 ml-3">
                     Trackerjet
                 </h1>
             </div>
