@@ -22,7 +22,7 @@ export default function Home() {
           Organize your job search.
         </motion.h1>
         <motion.h2 
-        className="py-10 text-2xl text-bold text-slate-200"
+        className="text-2xl text-bold text-slate-200"
         initial= {{ opacity : 0}}
         animate={{ opacity: 1, y: 20 }}
         transition={{ ease: "easeOut", duration: 1}}
@@ -31,9 +31,9 @@ export default function Home() {
         </motion.h2>
         
         {/*add and view applications buttons*/}
-        <div className="flex justify-center mt-5">
+        <div className="flex justify-center items-center pt-20">
           <motion.button 
-            className="flex justify-center items-center border border-1 border-green-400 hover:bg-slate-700 p-2 w-60 rounded-lg"
+            className="flex justify-center items-center border border-1 border-green-400 hover:bg-slate-700 p-2 w-60 rounded-lg mr-5"
             initial= {{ opacity : 0}}
             animate={{ opacity: 1, y: 30 }}
             transition={{ ease: "easeOut", duration: 1.5}}
@@ -47,13 +47,13 @@ export default function Home() {
               height={25}
               width={25}
             ></Image>
-            <h1 className="ml-1 text-lg text-green-400">
+            <h1 className="ml-5 text-lg text-green-400">
               Add an Application
             </h1>
           </motion.button>
           
           <motion.button
-            className="flex justify-center items-center border border-1 border-violet-600 hover:bg-slate-700 p-2 w-60 rounded-lg ml-10"
+            className="flex justify-center items-center border border-1 border-violet-600 hover:bg-slate-700 p-2 w-60 rounded-lg ml-5"
             initial= {{ opacity : 0}}
             animate={{ opacity: 1, y: 30 }}
             transition={{ ease: "easeOut", duration: 1.5}}
@@ -67,7 +67,7 @@ export default function Home() {
               height={25}
               width={25}
             ></Image>
-            <h1 className="ml-1 text-lg text-violet-600">
+            <h1 className="ml-5 text-lg text-violet-600">
               View Applications
             </h1>
           </motion.button>
