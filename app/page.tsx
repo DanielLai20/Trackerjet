@@ -42,12 +42,13 @@ export default function Home() {
             onHoverEnd={e => {}}
           >
             <Image
+              className="flex"
               src={Add}
               alt=""
               height={25}
               width={25}
             ></Image>
-            <h1 className="ml-5 text-lg text-green-400">
+            <h1 className="flex ml-5 text-lg text-green-400">
               Add an Application
             </h1>
           </motion.button>
@@ -62,12 +63,13 @@ export default function Home() {
             onHoverEnd={e => {}}
           >
             <Image
+              className="flex"
               src={Folder}
               alt=""
               height={25}
               width={25}
             ></Image>
-            <h1 className="ml-5 text-lg text-violet-600">
+            <h1 className="flex ml-5 text-lg text-violet-600">
               View Applications
             </h1>
           </motion.button>
