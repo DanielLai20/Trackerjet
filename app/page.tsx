@@ -2,6 +2,7 @@
 
 import { motion } from 'framer-motion';
 import Nav from '@/components/nav';
+import Form from '@/components/form';
 import React from 'react';
 import Image from 'next/image';
 
@@ -31,7 +32,7 @@ export default function Home() {
         </motion.h2>
         
         {/*add and view applications buttons*/}
-        <div className="flex justify-center items-center pt-20">
+        <div className="flex justify-center items-center pt-20 mb-10">
           <motion.button 
             className="flex justify-center items-center border border-1 border-green-400 hover:bg-slate-700 p-2 w-60 rounded-lg mr-5"
             initial= {{ opacity : 0}}
@@ -74,7 +75,11 @@ export default function Home() {
             </h1>
           </motion.button>
         </div>
+        
+        {/*Application Form*/}
+        <Form></Form>
       </div>
+
 
   )
 }
