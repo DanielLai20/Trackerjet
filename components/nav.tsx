@@ -6,7 +6,7 @@ import { motion } from 'framer-motion';
 
 const Nav = () => {
     return (
-        <nav className="fixed top-0 left-0 w-full z-10 bg-transparent px-20 py-4">
+        <nav className="fixed top-0 left-0 right-0 w-full z-10 bg-transparent px-20 py-4">
             <div className="flex justify-start items-center py-4 px-4">
                 <Image
                     src={Logo}
