@@ -7,7 +7,7 @@ const Form = () => {
   return (
     <div className="flex bg-transparent justify-center w-128 mt-10">
         <motion.form 
-        className="bg-violet-600 shadow-md rounded-lg px-8 pt-6 pb-8 mb-4">
+        className="bg-violet-600 shadow-md rounded-lg px-8 pt-6 pb-8 mb-5">
             <div className="mb-4">
                 <label className="block text-white text-sm font-bold mb-2" htmlFor="companyName">
                     Company Name
