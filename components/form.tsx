@@ -29,7 +29,7 @@ const Form = () => {
                     placeholder="mm/dd/yyyy"
                 ></input>
                 <label className="block text-white text-sm font-bold mb-2" htmlFor="onlineAssessment">
-                    Online Assessment
+                    Online Assessments
                 </label>
             </div>
             </div>
